@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ec1gutierrezenrique</string>
+    <string name="valtitulo">Calcular Descuento</string>
+    <string name="valcantidad">Ingrese la cantidad de productos</string>
+    <string name="valprecio">Ingrese el precio del producto</string>
+    <string name="valcalulardescuento">Calcular Monto Total</string>
+    <string name="valresultado">Monto a pagar</string>
+    <string name="valmontoprestamos">Ingrese monto solicitado</string>
+    <string name="valcalcularprestamos">Calcular Prestamo</string>
+    <string name="valresultadoprestamos">Cuotas a pagar</string>
+    <string name="valprestamos">Calculadora de Prestamos</string>
+</resources>
