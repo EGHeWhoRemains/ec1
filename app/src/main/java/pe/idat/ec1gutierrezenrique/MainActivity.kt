@@ -18,14 +18,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding.btncalcular.setOnClickListener(this)
         }
     override fun onClick(p0: View?) {
-        val cantidad = binding.etcantidad.text.toString().toDoubleOrNull() ?: 0.0
-        val precio = binding.etcantidad.text.toString().toDoubleOrNull() ?: 0.0
+        val cantidad = binding.etcantidad.text.toString().toDouble()
+        val precio = binding.etprecio.text.toString().toDouble()
         val total = cantidad * precio
         var totalDescuento = if(total > 200 ) {
             total * 0.8
         } else {
             total
         }
-        binding.etresultado.setText("El total a pagar es $totalDescuento")
+        binding.tvresultado.setText("El total a pagar es $totalDescuento")
     }
 }
